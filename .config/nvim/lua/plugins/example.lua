@@ -13,6 +13,7 @@ return {
   { "ellisonleao/gruvbox.nvim" },
   { "Mofiqul/dracula.nvim" },
   -- Configure LazyVim to load gruvbox
+  {'mg979/vim-visual-multi'},
   {
     "LazyVim/LazyVim",
     opts = {

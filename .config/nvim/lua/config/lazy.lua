@@ -13,7 +13,7 @@ require("lazy").setup({
     -- import any extras modules here
     -- edgy.nvim
     { import = "lazyvim.plugins.extras.lang.rust" },
-
+    { import = "lazyvim.plugins.extras.vscode" },
     -- { import = "lazyvim.plugins.extras.lang.typescript" },
     -- { import = "lazyvim.plugins.extras.lang.json" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
