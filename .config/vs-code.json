@@ -1,0 +1,72 @@
+{
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.lineDecorationsWidth": 10,
+  "editor.fontLigatures": true,
+  "rust-analyzer.imports.granularity.group": "crate",
+  "rust-analyzer.imports.group.enable": true,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+  "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+  "rust-analyzer.procMacro.enable": true,
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.diagnostics.disabled": ["unresolved-method"],
+  "editor.formatOnSave": true,
+  "eslint.lintTask.enable": true,
+  "liveshare.allowGuestDebugControl": true,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.rs$",
+        "cmd": "leptosfmt ${file}"
+      }
+    ]
+  },
+  "liveshare.allowGuestTaskControl": true,
+  "liveshare.languages.allowGuestCommandControl": true,
+  "liveshare.openSharedServers": false,
+  "liveshare.publishWorkspaceInfo": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "liveshare.presence": true,
+  "prettier.printWidth": 120,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "jupyter.askForKernelRestart": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "liveshare.notebooks.allowGuestExecuteCells": true,
+  "playwright.reuseBrowser": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "workbench.editor.showTabs": false,
+  "vim.enableNeovim": true,
+  "gitlens.statusBar.pullRequests.enabled": false,
+  "glassit.alpha": 220,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.statusBar.visible": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.lineNumbers": "relative",
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "window.menuBarVisibility": "toggle",
+  "files.insertFinalNewline": true
+}
